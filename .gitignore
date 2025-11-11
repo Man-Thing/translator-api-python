@@ -1,0 +1,124 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.env/
+venv/
+ENV/
+env/
+.venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+*.manifest
+*.spec
+
+# Compiled C extensions
+*.so
+*.pyd
+*.dll
+*.dylib
+
+# Logs and debug
+*.log
+*.pot
+*.mo
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Coverage / Testing
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+htmlcov/
+.coverage.*
+
+# FastAPI / Uvicorn
+*.sqlite3
+*.db
+*.pid
+
+# Temporary media or voice files
+voice_temp.*
+*.wav
+*.mp3
+
+# Node / Frontend (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Static build artifacts
+static/**/*.map
+static/**/*.tmp
+static/**/*.bak
+
+# OS generated files
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Python byte-compiled / cache
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Backup files
+*~
+*.orig
+*.rej
+
+# Environment / credentials
+.env.local
+.env.dev
+.env.test
+.env.prod
+*.env
+.envrc
+
+# PyInstaller / EXE outputs
+*.spec
+output/
+# optional binary outputs
+/dist/
+# ------------------------
+
+# Custom ignores for this translator project
+# Audio cache, temporary translation files, test uploads
+tmp_audio/
+uploads/
+tts_output/
+tts_temp_*.mp3
+
+# macOS metadata
+*.icloud
