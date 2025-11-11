@@ -1,0 +1,6 @@
+fastapi 
+"uvicorn[standard]"
+speechrecognition 
+deep-translator 
+gTTS 
+google-transliteration-api
